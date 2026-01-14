@@ -8,9 +8,12 @@ const app = express();
 app.use(express.json());
 
 // ✅ CORS (allow React dev server)
-app.use(cors({
-    origin: "http://localhost:5173"
-}));
+// app.use(cors({
+//     // origin: "http://localhost:5173"
+//     origin: "https://leetnote-backend-separate.onrender.com"
+// }));
+
+app.use(cors());
 
 // 🔥 LOG EVERY REQUEST
 app.use((req, res, next) => {
