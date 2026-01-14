@@ -1,0 +1,36 @@
+:root {
+  --lc-bg: #1a1a1a;
+  --lc-panel: #262626;
+  --lc-border: #3a3a3a;
+  --lc-text: #e5e7eb;
+  --lc-muted: #9ca3af;
+  --lc-accent: #ffa116;
+}
+
+body {
+  margin: 0;
+  background-color: var(--lc-bg);
+  color: var(--lc-text);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Make the prev/next button only as wide as the icon */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;          /* adjust to icon size */
+  height: 50px;         /* optional: icon height */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 100%;          /* fill the button */
+  height: 100%;
+  background-size: contain; /* ensure icon fits inside */
+  background-color: brown;
+}
+
+Textfield {
+  height: 400px !important;
+}
