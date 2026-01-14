@@ -252,7 +252,8 @@ export default function CustomPaginationActionsTable() {
                                 >
 
                                 <source
-                                    src={`http://localhost:3002/videos/${row.visualization}`}
+                                    // src={`http://localhost:3002/videos/${row.visualization}`}
+                                    src={`https://leetnote-backend-separate.onrender.com/videos/${row.visualization}`}
                                     type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
