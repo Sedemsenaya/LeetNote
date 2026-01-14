@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="1">
+    <Name>removeElement</Name>
+    <Signature>([II)I</Signature>
+    <DeclaringType>Solution</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Scope id="0">
+    <Name>main</Name>
+    <Signature>([Ljava/lang/String;)V</Signature>
+    <DeclaringType>Solution</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>false</AutoSize>
+      <X>60</X>
+      <Y>140</Y>
+      <W>1811</W>
+      <H>565</H>
+    </Bounds>
+    <PanelSize>
+      <Key>jgrasp_viewers._X_A_PresentationView0</Key>
+      <Order>4</Order>
+      <W>1817</W>
+      <H>622</H>
+    </PanelSize>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local int[]` nums</Expression>
+      <Indices>#fast#slow</Indices>
+      <ViewerClass>jgrasp_viewers._X_A_PresentationView</ViewerClass>
+      <ViewerData>
+        <Scale>79</Scale>
+        <Width>88</Width>
+        <Round>false</Round>
+      </ViewerData>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>870</X>
+      <Y>730</Y>
+      <W>142</W>
+      <H>47</H>
+    </Bounds>
+    <LabelLoc>
+      <WO>false</WO>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local int` val</Expression>
+      <ViewerClass>jgrasp_viewers._X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>1936</W>
+    <H>1048</H>
+  </Size>
+  <ESize>
+    <W>1936</W>
+    <H>1048</H>
+  </ESize>
+</Canvas>
