@@ -46,9 +46,12 @@ app.get("/problems", async (req, res) => {
     res.json(rows);
 });
 
-app.listen(3002, () => {
-    console.log("Server running on http://localhost:3002");
+// Render requires dynamic port
+const PORT = process.env.PORT || 3002;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });
+
 
 
 app.get("/debug-videos-path", (req, res) => {
