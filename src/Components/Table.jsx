@@ -104,7 +104,8 @@ export default function CustomPaginationActionsTable() {
     };
 
     useEffect(() => {
-        fetch("http://localhost:3002/problems")
+        fetch("https://leetnote-backend-separate.onrender.com/problems")
+        // fetch("http://localhost:3002/problems")
             .then(res => res.json())
             .then(data => {
                 const mapped = data.map(row =>
@@ -252,7 +253,8 @@ export default function CustomPaginationActionsTable() {
                                 >
 
                                 <source
-                                    src={`http://localhost:3002/videos/${row.visualization}`}
+                                    // src={`http://localhost:3002/videos/${row.visualization}`}
+                                    src={`https://leetnote-backend-separate.onrender.com/videos/${row.visualization}`}
                                     type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
