@@ -104,7 +104,7 @@ export default function CustomPaginationActionsTable() {
     };
 
     useEffect(() => {
-        fetch("http://leetnote-backend-separate.onrender.com/problems")
+        fetch("https://leetnote-backend-separate.onrender.com/problems")
         // fetch("http://localhost:3002/problems")
             .then(res => res.json())
             .then(data => {
